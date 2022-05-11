@@ -26,6 +26,8 @@ To enter data:
 
  <br/>
 
+
+ Create .env file using .example.env file
  Run the application using ```npm run start```
 
  <br/>
