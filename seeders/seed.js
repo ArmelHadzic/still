@@ -14,7 +14,7 @@ const usersData = usersMainData.map(
 );
 
 try {
-    mongoose.connect(`${process.env.MONGO_DB_URI}/${process.env.MONGO_DB}`);
+    mongoose.connect(`${process.env.MONGO_DB_URI}/${process.env.MONGO_DB_NAME}`);
     await User.insertMany(usersData);
     mongoose.connection.close();
     console.log('Data successfully inserted into DB.');
