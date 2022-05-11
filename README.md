@@ -38,7 +38,6 @@ To enter data:
 
  GET endpoints can be used inside the browser and they will return
  - All users that match query params. If no params are provided, all users will be returned
- <br/>
 (The available params that can be used are: firstName, lastName, email, phoneNumber)
  - Single user if the ID is provided
 
