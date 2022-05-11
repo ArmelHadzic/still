@@ -15,15 +15,13 @@ To use this backend application, use the following instructions:
 <br/>
 
 To be able to run available endpoints, we need data in the DB.
-<br/>
+
 To enter data:
  - Navigate to ```'./seeders/seed.js'```.
  - In the following command
- <br/>
  ```npx cross-env MONGO_DB_URI=your_mongodb_uri MONGO_DB_NAME=your_mongodb_name node seed.js```
- <br/>
  enter your own ```MONGO_DB_URI``` and ```MONGO_DB_NAME``` and run
- <br/>
+ 
  (Example: ```npx cross-env MONGO_DB_URI=mongodb://localhost:27017 MONGO_DB_NAME=ankora_db node seed.js```)
 
  <br/>
